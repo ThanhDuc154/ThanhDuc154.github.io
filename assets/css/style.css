@@ -172,6 +172,7 @@ html {
 /* * start member ------------------------------------ */
 #content .about-text {
   margin-bottom: 15px;
+  text-align: justify;
 }
 
 #content .member-item {
@@ -429,7 +430,7 @@ html {
 
 .info-band p {
   font-size: 18px;
-  line-height: 24px;
+  line-height: 40px;
 }
 
 .info-guest {
@@ -468,7 +469,7 @@ html {
 .section-contact .send-btn {
   width: fit-content;
   align-self: flex-end;
-  padding: 8px 16px;
+  padding: 12px 16px;
   margin-top: 16px;
   border: none;
   background: #000;
