@@ -430,7 +430,7 @@ html {
 
 .info-band p {
   font-size: 18px;
-  line-height: 40px;
+  line-height: 28px;
 }
 
 .info-guest {
@@ -469,7 +469,7 @@ html {
 .section-contact .send-btn {
   width: fit-content;
   align-self: flex-end;
-  padding: 12px 16px;
+  padding: 8px 16px;
   margin-top: 16px;
   border: none;
   background: #000;
