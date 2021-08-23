@@ -1,0 +1,89 @@
+/* @media (min-width: 740px) and (max-width: 1024px) {
+  #content .member-name {
+    width: calc(100% / 2);
+  }
+} */
+
+@media (max-width: 1024px) {
+  .info-guest input {
+    padding: 14px;
+  }
+}
+
+@media (min-width: 740px) and (max-width: 1024px) {
+  #content .place-buy-btn {
+    padding: 12px 16px;
+  }
+}
+
+/* * Mobile */
+@media (min-width: 740px) {
+  #header .mobile-menu-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 739.9px) {
+  /* * start header */
+  #header {
+    overflow: hidden;
+  }
+
+  #header .search-btn {
+    display: none;
+  }
+
+  #nav > li {
+    display: list-item;
+  }
+
+  #nav li:hover .subnav {
+    color: #fff;
+    background-color: #ccc;
+  }
+  #nav .subnav {
+    position: initial;
+  }
+
+  #nav .subnav a {
+    line-height: 44px;
+  }
+
+  #nav .subnav a:hover {
+    color: #fff;
+  }
+  /* * end header */
+  /* * start member */
+  #content .member-name {
+    width: 100%;
+  }
+  /* * start tour */
+  #content .place-item {
+    width: 100%;
+  }
+
+  #content .place-buy-btn {
+    width: 100%;
+  }
+  /* * Contact */
+  .section-contact {
+    flex-direction: column;
+  }
+
+  .info-Name-email {
+    flex-wrap: wrap;
+  }
+
+  .info-name {
+    padding: 0 0 8px 0;
+  }
+
+  .section-contact .send-btn {
+    width: 100%;
+  }
+  /* * end contact */
+  /* * modal */
+  .modal-container {
+    width: calc(100% - 32px);
+  }
+}
