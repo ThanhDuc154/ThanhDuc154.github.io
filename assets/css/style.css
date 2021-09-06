@@ -9,7 +9,7 @@
       rgba(221, 221, 221, 0.3),
       rgba(255, 255, 255, 0)
     ),
-    url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-2.jpg);
+    url(/assets/img/parallax-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
