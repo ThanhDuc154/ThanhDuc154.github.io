@@ -24,4 +24,5 @@ select,
 textarea {
   font-family: inherit;
   font-size: 1.4rem;
+  cursor: pointer;
 }

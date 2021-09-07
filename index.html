@@ -274,10 +274,22 @@
             <span class="header__content-title-style">Holiday</span>
           </h3>
           <p class="header__content-sub-title">check our best promotions</p>
-          <div class="header_content-search">
-            <input type="text" name="" id="" placeholder="Europe" />
-            <i class="header_content-search-icon fas fa-search"></i>
-          </div>
+          <form class="header_content-search">
+            <select name="category-search" id="category-search">
+              <option value=""><span>Choose your Destination...</span></option>
+              <option value="">Europe</option>
+              <option value="">- Italy</option>
+              <option value="">- Netherlands</option>
+              <option value="">Asia</option>
+              <option value="">- Thailania</option>
+              <option value="">United States</option>
+              <option value="">Oceania</option>
+            </select>
+            <!-- <input type="submit" value="gui" /> -->
+            <button name="search-btn" type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
           <div class="header__travel-list">
             <a class="header__travel-list-item">
               <img
@@ -524,13 +536,16 @@
         </div>
       </header>
       <div class="content">
-        <div class="suggest grid w1200">
+        <div class="suggest grid w1200 w720 w430">
           <div class="suggest__title grid__col12">
             <p>OUR PROPOSALS</p>
             <h3>OUR <span class="suggest__title--style">DESTINATIONS</span></h3>
           </div>
           <div
-            class="suggest__package-item suggest__package-item--blur grid__col4"
+            class="
+              suggest__package-item suggest__package-item--blur
+              grid__col4 grid__colsm12
+            "
           >
             <img
               src="./assets/img/destination-9.jpg"
@@ -552,7 +567,10 @@
             </div>
           </div>
           <div
-            class="suggest__package-item suggest__package-item--blur grid__col4"
+            class="
+              suggest__package-item suggest__package-item--blur
+              grid__col4 grid__colsm12
+            "
           >
             <img
               src="./assets/img/suggest2-720x720.jpg"
@@ -572,7 +590,10 @@
             </div>
           </div>
           <div
-            class="suggest__package-item suggest__package-item--blur grid__col4"
+            class="
+              suggest__package-item suggest__package-item--blur
+              grid__col4 grid__colsm12
+            "
           >
             <img
               src="./assets/img/suggest3.jpg"
@@ -593,7 +614,10 @@
             </div>
           </div>
           <div
-            class="suggest__package-item suggest__package-item--blur grid__col4"
+            class="
+              suggest__package-item suggest__package-item--blur
+              grid__col4 grid__colsm12
+            "
           >
             <img
               src="./assets/img/suggest4.jpg"
@@ -613,7 +637,10 @@
             </div>
           </div>
           <div
-            class="suggest__package-item suggest__package-item--blur grid__col4"
+            class="
+              suggest__package-item suggest__package-item--blur
+              grid__col4 grid__colsm12
+            "
           >
             <img
               src="./assets/img/suggest5.jpg"
@@ -633,7 +660,10 @@
             </div>
           </div>
           <div
-            class="suggest__package-item suggest__package-item--blur grid__col4"
+            class="
+              suggest__package-item suggest__package-item--blur
+              grid__col4 grid__colsm12
+            "
           >
             <img
               src="./assets/img/suggest6.jpg"
@@ -656,23 +686,23 @@
         <!-- gợi ý gói -->
         <div class="home-link">
           <div class="home-link__content grid">
-            <div class="home-link__title grid__col6">
+            <div class="home-link__title grid__col6 grid__colsm12">
               <h3>Your</h3>
               <h3>
                 Next
                 <span class="home-link__title home-link__title--style"
-                  >holiday</span
+                  >Holiday</span
                 >
               </h3>
             </div>
-            <a href="" class="btn btn--red-white grid__col6"
+            <a href="" class="btn btn--red-white grid__col6 grid__colsm12"
               >VIEW ALL PACKAGES</a
             >
           </div>
         </div>
         <!-- homelink -->
-        <div class="post-slide grid w1200">
-          <div class="post grid__col4">
+        <div class="post-slide grid w1200 w720 w430">
+          <div class="post grid__col4 grid__colsm12">
             <div class="post__title">
               <p>NORTH AMERICA</p>
               <h4>The Best <span class="post__title--style">Beaches</span></h4>
@@ -693,7 +723,7 @@
             </div>
             <a class="btn btn--white-green">BOOK NOW</a>
           </div>
-          <div class="section-slider grid__col8">
+          <div class="section-slider grid__col8 grid__colsm12">
             <div class="slider">
               <input type="radio" name="radio" id="radio-btn1" />
               <input type="radio" name="radio" id="radio-btn2" />
@@ -736,21 +766,18 @@
         </div>
         <!-- * END CALENDAR -->
         <!-- * TOUR  -->
-        <div class="tour grid w1200">
-          <div class="tour__item grid__col4">
+        <div class="tour grid w1200 w720 w430">
+          <div class="tour__item grid__col4 grid__colsm12">
             <div class="tour__item-img">
               <img src="./assets/img/icon-around.png" alt="" />
             </div>
             <div class="tour__item-info">
               <h4 class="tour__item-title">World Tour</h4>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Cupiditate, quaerat minima ea ab
-              </p>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
               <a href="" class="tour__item-link">View More</a>
             </div>
           </div>
-          <div class="tour__item grid__col4">
+          <div class="tour__item grid__col4 grid__colsm12">
             <div class="tour__item-img">
               <img src="./assets/img/icon-boat.png" alt="" />
             </div>
@@ -758,12 +785,12 @@
               <h4 class="tour__item-title">Cruises</h4>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Cupiditate, quaerat minima ea ab
+                Cupiditate,
               </p>
               <a href="" class="tour__item-link">View More</a>
             </div>
           </div>
-          <div class="tour__item grid__col4">
+          <div class="tour__item grid__col4 grid__colsm12">
             <div class="tour__item-img">
               <img src="./assets/img/icon-landmark.png" alt="" />
             </div>
@@ -790,13 +817,13 @@
           </div>
         </div>
         <!-- * PROMOTIONS -->
-        <div class="promotions grid w1200">
+        <div class="promotions grid w1200 w720 w430">
           <div class="promotion__title grid__col12">
             <p>PROMOTIONS</p>
             <h3>OUR <span class="promotion__title--style">PACKAGES</span></h3>
           </div>
           <!-- * PROMOTION PACKAGES -->
-          <div class="promotion__pakages grid__col4">
+          <div class="promotion__pakages grid__col4 grid__colsm12">
             <img src="./assets/img/berlin-1-1024x640.jpg" alt="" />
             <a class="promotion__icon promotion__icon--orange">
               <img src="/assets/img/arch.png" alt="" />
@@ -833,7 +860,7 @@
             </div>
           </div>
 
-          <div class="promotion__pakages grid__col4">
+          <div class="promotion__pakages grid__col4 grid__colsm12">
             <img src="./assets/img/HongKong-1024x640.jpg" alt="" />
             <a class="promotion__icon promotion__icon--red">
               <img src="/assets/img/torii-gate.png" alt="" />
@@ -872,7 +899,7 @@
             </div>
           </div>
 
-          <div class="promotion__pakages grid__col4">
+          <div class="promotion__pakages grid__col4 grid__colsm12">
             <img src="./assets/img/sanfrancisco-1024x640.jpg" alt="" />
             <a class="promotion__icon promotion__icon--purple">
               <img src="/assets/img/golden-gate.png" alt="" />
@@ -918,7 +945,7 @@
       </div>
       <div class="footer">
         <div class="footer__content">
-          <div class="footer__head grid w1200">
+          <div class="footer__head grid w1200 w720 w430">
             <div class="footer__title">
               <p>KEEP IN TOUCH</p>
               <h3>Travel with Us</h3>
@@ -928,8 +955,8 @@
               <a class="btn btn--white-blue">SEND</a>
             </div>
           </div>
-          <div class="page-info grid w1200">
-            <div class="page__contact grid__col6">
+          <div class="page-info grid w1200 w720 w430">
+            <div class="page__contact grid__col6 grid__colsm12">
               <div class="page__logo">
                 <img src="./assets/img/logo-color.png" alt="" />
               </div>
@@ -938,8 +965,6 @@
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Eligendi praesentium harum accusantium, eos adipisci totam
                   voluptate blanditiis! Aliquid, consequuntur amet. Mollitia
-                  voluptas optio quos aspernatur sapiente debitis repellat.
-                  Error, dolorum.
                 </p>
               </div>
               <div class="social-media">
@@ -949,7 +974,7 @@
                 <a href=""><i class="fab fa-instagram-square"></i></a>
               </div>
             </div>
-            <ul class="page-category grid__col2">
+            <ul class="page-category grid__col2 grid__colsm12">
               <div class="page-category__title">
                 <h4>OUR AGENCY</h4>
               </div>
@@ -975,7 +1000,7 @@
               </li>
             </ul>
 
-            <ul class="page-category grid__col2">
+            <ul class="page-category grid__col2 grid__colsm12">
               <div class="page-category__title">
                 <h4>PARTNERS</h4>
               </div>
@@ -1000,7 +1025,7 @@
                 <span>TripAdvisor</span>
               </li>
             </ul>
-            <ul class="page-category grid__col2">
+            <ul class="page-category grid__col2 grid__colsm12">
               <div class="page-category__title">
                 <h4>LAST MINUTE</h4>
               </div>

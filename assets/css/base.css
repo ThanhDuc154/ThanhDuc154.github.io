@@ -50,7 +50,55 @@
 .grid__col12 {
   grid-column: span 12;
 }
-.header__subsubnav-list-item-name--hot:after,
+@media screen and (max-width: 1200px) {
+  .w720 {
+    max-width: 720px;
+    width: 100%;
+  }
+  .grid__colsm1 {
+    grid-column: span 1;
+  }
+  .grid__colsm2 {
+    grid-column: span 2;
+  }
+  .grid__colsm3 {
+    grid-column: span 3;
+  }
+  .grid__colsm4 {
+    grid-column: span 4;
+  }
+  .grid__colsm5 {
+    grid-column: span 5;
+  }
+  .grid__colsm6 {
+    grid-column: span 6;
+  }
+  .grid__colsm7 {
+    grid-column: span 7;
+  }
+  .grid__colsm8 {
+    grid-column: span 8;
+  }
+  .grid__colsm9 {
+    grid-column: span 9;
+  }
+  .grid__colsm10 {
+    grid-column: span 10;
+  }
+  .grid__colsm11 {
+    grid-column: span 11;
+  }
+  .grid__colsm12 {
+    grid-column: span 12;
+  }
+}
+@media screen and (max-width: 767px) {
+  .w430 {
+    width: 100%;
+    max-width: 430px;
+  }
+}
+*/ .header__subsubnav-list-item-name--hot:after,
 .header__subnav-list-item-name--hot:after {
   content: "HOT";
   background-color: #f76570;
