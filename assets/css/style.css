@@ -1,5 +1,3 @@
-.container {
-}
 .header {
   width: 100%;
   height: 870px;
@@ -390,6 +388,7 @@
 }
 /* * MOBI MENU */
 #mobi-menu-on-off:checked ~ .mobi-menu {
+  -o-transform: translateX(0);
   transform: translateX(0);
 }
 .mobi-menu {
@@ -403,6 +402,7 @@
   padding: 30px 40px;
   z-index: 1;
   transform: translateX(100%);
+  -o-transform: translateX(100%);
   transition: transform 0.6s;
   -o-transition: transform 0.6s;
 }
@@ -740,10 +740,6 @@
 }
 .tour__item {
   display: flex;
-}
-.tour__item-img {
-  /* width: 50px;
-  height: 50px; */
 }
 .tour__item-img img {
   width: 50px;
@@ -1188,8 +1184,5 @@
   }
   .footer__content {
     padding: 80px 15px;
-  }
-  .manual-btn label {
-    /* padding: 20.6px 0; */
   }
 }
