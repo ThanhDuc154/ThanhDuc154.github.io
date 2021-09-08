@@ -404,6 +404,7 @@
   z-index: 1;
   transform: translateX(100%);
   transition: transform 0.6s;
+  -o-transition: transform 0.6s;
 }
 .mobi-menu__close {
   position: absolute;
@@ -417,10 +418,12 @@
   color: var(--white-color);
   width: 100%;
 }
+.mobi-menu__list {
+  margin-top: 20px;
+}
 .mobi-menu__sub-list,
 .mobi-menu__list {
   list-style: none;
-  margin-top: 20px;
 }
 .mobi-menu__list li {
   letter-spacing: 2px;
